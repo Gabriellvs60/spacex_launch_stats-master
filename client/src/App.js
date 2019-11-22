@@ -1,9 +1,8 @@
 import React from 'react';
-import Launches from './components/Launches';
 import ApolloClient from 'apollo-boost';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Launches from './components/Launches';
-import Launch from './components/Launches';
+import Launch from './components/Launch';
 import {ApolloProvider} from 'react-apollo';
 import './App.css';
 import { from } from 'zen-observable';
